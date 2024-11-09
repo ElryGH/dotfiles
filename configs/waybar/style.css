@@ -12,34 +12,6 @@ window#waybar {
     color: #cdd6f4;
 }
 
-#workspaces button {
-    padding: 5px;
-    color: #555869;
-    margin-right: 5px;
-}
-
-#workspaces button.active {
-    color: #a6adc8;
-}
-
-#workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
-    border-radius: 10px;
-}
-
-#workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
-    border-radius: 10px;
-}
-
-#workspaces button:hover {
-    background: #cdd6f4;
-    color: #11111b; 
-    border-radius: 10px;
-}
-
 #window,
 #clock,
 #battery,
@@ -47,8 +19,9 @@ window#waybar {
 #network,
 #cpu,
 #memory,
-#workspaces,
 #tray,
+#bluetooth,
+#custom-spotify,
 #backlight {
     background: #1e1e2e;
     padding: 0px 10px;
@@ -57,21 +30,14 @@ window#waybar {
     /* border: 1px solid #181825; */
 }
 
-#backlight {
-    border-radius: 10px 0px 0px 10px;
+#custom-spotify {
+    color: #a6adc8;
+    border-radius: 10px 10px 10px 10px;
 }
 
 #tray {
     border-radius: 10px;
     margin-right: 10px;
-}
-
-#workspaces {
-    background: #1e1e2e;
-    border-radius: 10px;
-    margin-left: 10px;
-    padding-right: 0px;
-    padding-left: 5px;
 }
 
 #cpu {
@@ -81,12 +47,6 @@ window#waybar {
 
 #memory {
     border-radius: 0px 10px 10px 0px;
-}
-
-#window {
-    border-radius: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 #clock {
@@ -118,6 +78,4 @@ window#waybar {
 
 #battery {
     color:#a6adc8;
-    border-radius: 0px 10px 10px 0px;
-    margin-right: 10px;
 }

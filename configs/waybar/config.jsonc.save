@@ -14,8 +14,8 @@
     "modules-right": [
         "tray",
         "network",
-	"bluetooth",
         "battery",
+	"bluetooth",
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone"
@@ -32,7 +32,8 @@
     },
 
     "bluetooth": {
-        "format": "",
+        "format": " 0",
+        "format-disabled": " Off",
         "format-connected": " {num_connections}",
         "format-connected-battery": "{icon} {num_connections}",
         // "format-connected-battery": "{icon} {device_alias}-{device_battery_percentage}%",
@@ -119,8 +120,14 @@
             "m": 30 // medium
         },
         "interval": 3,
-        "format": "󰾆 {percentage}%",
+        "format": "󰾆 {used}GB",
+        "format-m": "󰾅 {used}GB",
+        "format-h": "󰓅 {used}GB",
+        "format-c": " {used}GB",
+        "format-alt": "󰾆 {percentage}%",
         "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB"
     },
 
     "cpu": {
@@ -132,7 +139,7 @@
 
     "network": {
         "tooltip": true,
-        "format-wifi": " ",
+        "format-wifi": "  {essid}",
         "format-ethernet": "󰈀 ",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
