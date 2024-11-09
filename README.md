@@ -1,17 +1,13 @@
 # Elry's Hyprland Dotfiles 
-Welcome to my Hyprland Guide! This repository is designed to copy up my Hyprland environment on Arch.
+Welcome to my Hyprland Guide! </br>
+This repository is designed to copy up my Hyprland environment on Arch. </br>
+By the end of this guide, you'll have a clean Hyprland setup like this: </br>
+<img src="/assets/github_repo/screenshot-01.png" alt="final-setup-01"> </br>
+And also a nice SDDM & Grub Theme: </br>
+<img width="300" src="/assets/github_repo/screenshot-02.png" alt="final-setup-02">
+<img width="300" src="/assets/github_repo/screenshot-03.png" alt="final-setup-03">
 
-By the end of this guide, you'll have a clean and functional Hyprland setup like this:
-
-<img src="/assets/github_repo/screenshot-01.png" alt="final-setup-01">
-<img src="/assets/github_repo/screenshot-02.png" alt="final-setup-02">
-
-## Purpose ✨
-This guide is intended for:
-
-**Users who wish to set up a minimal system without much input, but still having choices.**
-
-## Quick Installation 🚀
+## Installation
 
 1. Clone the repository to your home folder:
     ```
@@ -27,9 +23,10 @@ This guide is intended for:
     ```
 4. Use the Installation Script to set up Hyprland.
 
-### Key Bindings 🎹
+### Key Bindings
 
-After installation, you'll want to familiarize yourself with the default key bindings. Here are some essential shortcuts to get you started:
+After installation, you'll want to familiarize yourself with the default key bindings. </br>
+Here are some essential shortcuts to get you started:
 
 #### General
 - `Super + T`: Open the terminal (Kitty).
@@ -65,9 +62,10 @@ After installation, you'll want to familiarize yourself with the default key bin
 - `Super + Escape`: Open the logout menu.
 - `Print Screen`: Take a screenshot of the entire screen and copy it to the clipboard.
 
-Make sure to have applications installed corresponding to the binds. Feel free to customize these keybindings to better suit your needs. You can customize these and add more in your Hyprland configuration file (`~/.config/hypr/hyprland.conf`).
+Make sure to have applications installed corresponding to the binds. </br>
+Feel free to customize these keybindings to better suit your needs.
 
-## Credits 🙏
+## Credits
 * [Simple Hyprland](https://github.com/gaurav210233/simple-hyprland)
 * [SDDM Chili](https://github.com/MarianArlt/sddm-chili)
 * [Arch Silence](https://github.com/fghibellini/arch-silence)
