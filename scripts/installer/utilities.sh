@@ -30,4 +30,6 @@ run_command "cp -r /home/$SUDO_USER/dotfiles/configs/wlogout /home/$SUDO_USER/.c
 
 run_command "yay -S --sudoloop --noconfirm grimblast" "Install Grimblast - Screenshot tool" "yes" "no"
 
+run_command "yay -S --sudoloop --noconfigm bluez bluez-utils blueman && systemctl enable --now bluetooth.service" "Install & Enable Bluetooth" "yes" "no"
+
 echo "------------------------------------------------------------------------"

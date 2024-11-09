@@ -2,10 +2,10 @@
 Welcome to my Hyprland Guide! </br>
 This repository is designed to copy up my Hyprland environment on Arch. </br>
 By the end of this guide, you'll have a clean Hyprland setup like this: </br>
-<img src="/assets/github_repo/screenshot-01.png" alt="final-setup-01"> </br>
+<img src="/assets/screenshot.png" alt="final-setup"> </br>
 And also a nice SDDM & Grub Theme: </br>
-<img width="300" src="/assets/github_repo/screenshot-02.png" alt="final-setup-02">
-<img width="300" src="/assets/github_repo/screenshot-03.png" alt="final-setup-03">
+<img width="300" src="https://github.com/MarianArlt/sddm-chili/raw/master/preview.jpg" alt="sddm">
+<img width="300" src="https://github.com/fghibellini/arch-silence/raw/master/preview.png" alt="grub">
 
 ## Installation
 
