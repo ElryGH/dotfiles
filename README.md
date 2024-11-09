@@ -58,6 +58,7 @@ Here are some essential shortcuts to get you started:
 - `SUPER + L`: Lock screen
 - `Super + V`: Open the clipboard history and paste the selected item.
 - `Super + P`: Open the color picker and copy the selected color to the clipboard.
+- `Super + E`: Open a Emoji Picker and copy the selection to clipboard.
 - `Super + L`: Lock the screen.
 - `Super + Escape`: Open the logout menu.
 - `Print Screen`: Take a screenshot of the entire screen and copy it to the clipboard.
