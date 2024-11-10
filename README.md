@@ -33,7 +33,6 @@ Here are some essential shortcuts to get you started:
 - `Super + C`: Open the browser (Chrome).
 - `Super + F`: Open the file manager (Nautilus).
 - `Super + R`: Open the application menu (Tofi).
-- `Super + N`: Open the application menu (Obsidian).
 
 #### Window Management & Workspace Navigation
 - `Super + Q`: Close the active window.
