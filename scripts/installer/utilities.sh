@@ -34,4 +34,6 @@ run_command "yay -S --sudoloop --noconfirm bluez bluez-libs bluez-utils blueman 
 
 run_command "yay -S --sudoloop --noconfirm jome" "Install Emoji-Picker" "yes" "no"
 
+run_command "yay -S --sudoloop --noconfirm unityhub jetbrains-toolbox node" "Install Unity Dev-Tools" "yes" "no"
+
 echo "------------------------------------------------------------------------"

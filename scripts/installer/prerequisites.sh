@@ -18,6 +18,8 @@ fi
 
 run_command "pacman -S --noconfirm pipewire pipewire-pulse lib32-pipewire pipewire-audio wireplumber pavucontrol" "Configuring audio (Recommended)" "yes" 
 
+run_command "pacman -S --noconfirm gnome-keyring libsecret seahorse" "Install Keystore (Recommended)" "yes" "no"
+
 run_command "pacman -S --noconfirm ttf-cascadia-code-nerd ttf-cascadia-mono-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-iosevka-nerd ttf-iosevkaterm-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono" "Installing Nerd Fonts and Symbols (Recommended)" "yes" 
 
 run_command "pacman -S --noconfirm sddm && systemctl enable sddm.service" "Install and enable SDDM (Recommended)" "yes"
