@@ -29,6 +29,8 @@ run_command "cp -r /home/$SUDO_USER/dotfiles/assets/grub/arch-silence /boot/grub
 
 run_command 'echo -e "\nGRUB_THEME=/boot/grub/themes/arch-silence/theme.txt" >> /etc/default/grub &&  grub-mkconfig -o /boot/grub/grub.cfg' "Enable Grub Theme" "yes" "no"
 
+run_command "cp /home/$SUDO_USER/dotfiles/assets/scripts/* /home/$SUDO_USER/.local/share/bin/" "Install Scripts (Recommended)" "yes" "no"
+
 # Add instructions to configure theming
 print_info "\nPost-installation instructions:"
 print_bold_blue "Set themes and icons:"

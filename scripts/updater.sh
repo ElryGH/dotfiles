@@ -14,7 +14,8 @@ cp -rf ~/.config/tofi "$SCRIPT_DIR/configs/"
 cp -rf ~/.config/waybar "$SCRIPT_DIR/configs/"
 cp -rf ~/.config/wlogout "$SCRIPT_DIR/configs/"
 
-echo "Copy Python Scripts"
-cp ~/.local/share/bin/mediaplayer.py "$SCRIPT_DIR/assets/py-scripts/"
+echo "Copy Scripts"
+cp ~/.local/share/bin/mediaplayer.py "$SCRIPT_DIR/assets/scripts/"
+cp ~/.local/share/bin/low_battery.sh "$SCRIPT_DIR/assets/scripts/"
 
 echo "Update done"
