@@ -7,15 +7,15 @@
     "gtk-layer-shell": true,
     "modules-left": [
         "clock",
-	"cpu",
-	"memory",
+    	"cpu",
+    	"memory",
     ],
     "modules-center": ["custom/spotify"],
     "modules-right": [
         "tray",
         "network",
-	"bluetooth",
         "battery",
+	"bluetooth",
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone"
@@ -24,15 +24,16 @@
     "custom/spotify": {
         "exec": "~/.local/share/bin/mediaplayer.py --player spotify",
         "format": " {}",
- 	"return-type": "json",
- 	"on-click": "playerctl play-pause",
- 	"on-scroll-up": "playerctl next",
- 	"on-scroll-down": "playerctl previous",
+    	"return-type": "json",
+    	"on-click": "playerctl play-pause",
+    	"on-scroll-up": "playerctl next",
+    	"on-scroll-down": "playerctl previous",
         "max-length": 50
     },
 
     "bluetooth": {
-        "format": "",
+        "format": " 0",
+        "format-disabled": " Off",
         "format-connected": " {num_connections}",
         "format-connected-battery": "{icon} {num_connections}",
         // "format-connected-battery": "{icon} {device_alias}-{device_battery_percentage}%",
@@ -42,11 +43,11 @@
         "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{icon} {device_battery_percentage}%",
-	"on-click": "blueman-manager"
+    	"on-click": "blueman-manager"
     },
     
     "tray": {
-        "icon-size": 20,
+        "icon-size": 13,
         "spacing": 10
     },
 
@@ -78,6 +79,7 @@
         "format": "{icon} {capacity}%",
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
         "format-icons": ["󰂃", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 
@@ -85,8 +87,8 @@
         "format": "{icon}  {volume}%",
         "tooltip": false,
         "format-muted": "  X",
-        "on-click": "pamixer -t 3",
-	"on-click-right": pavucontrol -t 3",
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol -t 3",
         "on-scroll-up": "pamixer -i 1",
         "on-scroll-down": "pamixer -d 1",
         "scroll-step": 5,
@@ -106,7 +108,7 @@
         "format-source": " {volume}%",
         "format-source-muted": "  X",
         "on-click": "pamixer --default-source -t",
-	"on-click-right": "pavucontrol -t 4",
+        "on-click-right": "pavucontrol -t 4",
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
@@ -120,7 +122,8 @@
         },
         "interval": 3,
         "format": "󰾆 {percentage}%",
-        "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
     },
 
     "cpu": {
@@ -132,13 +135,13 @@
 
     "network": {
         "tooltip": true,
-        "format-wifi": " ",
+        "format-wifi": "  ",
         "format-ethernet": "󰈀 ",
         "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
-        "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
         "interval": 2,
 	"on-click": "kitty nmtui"
     }
 }
+
