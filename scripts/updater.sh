@@ -13,6 +13,7 @@ cp -rf ~/.config/kitty "$SCRIPT_DIR/configs/"
 cp -rf ~/.config/tofi "$SCRIPT_DIR/configs/"
 cp -rf ~/.config/waybar "$SCRIPT_DIR/configs/"
 cp -rf ~/.config/wlogout "$SCRIPT_DIR/configs/"
+cp -rf ~/.config/fastfetch "$SCRIPT_DIR/configs/"
 
 echo "Copy Scripts"
 cp ~/.local/share/bin/mediaplayer.py "$SCRIPT_DIR/assets/scripts/"

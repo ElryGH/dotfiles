@@ -36,4 +36,7 @@ run_command "yay -S --sudoloop --noconfirm jome" "Install Emoji-Picker" "yes" "n
 
 run_command "yay -S --sudoloop --noconfirm unityhub jetbrains-toolbox node" "Install Unity Dev-Tools" "yes" "no"
 
+run_command "yay -S --sudoloop --noconfirm fastfetch" "Install Fasfetch" "yes" "no"
+run_command "cp -r /home/$SUDO_USER/dotfiles/configs/fastfetch /home/$SUDO_USER/.config/" "Copy Fastfetch Settings" "yes "no"
+
 echo "------------------------------------------------------------------------"
