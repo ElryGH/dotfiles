@@ -113,29 +113,20 @@
     },
 
     "memory": {
-        "states": {
-            "c": 90, // critical
-            "h": 60, // high
-            "m": 30 // medium
-        },
         "interval": 3,
-        "format": "󰾆 {percentage}%",
-        "tooltip": true,
-        "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+        "format": " {percentage}%",
     },
 
     "cpu": {
         "interval": 3,
         "format": "󰍛 {usage}%",
-        "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
 
     "network": {
         "tooltip": true,
         "format-wifi": " ",
         "format-ethernet": "󰈀 ",
-        "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+        "tooltip-format": "{essid}\n{ipaddr}",
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
         "interval": 5,
