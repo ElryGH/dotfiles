@@ -1,10 +1,5 @@
 # Elry's Hyprland Dotfiles 
 
-## Dropped Support
-I had problems with XWayland (Unity) and a bunch of Arch related .NET / Nuget issues
-
-
-# Welcome to my Hyprland Guide!
 This repository is designed to copy up my Hyprland environment on Arch. </br>
 By the end of this guide, you'll have a clean Hyprland setup like this: </br>
 <img width="720" src="screenshot.png" alt="final-setup"> </br>
