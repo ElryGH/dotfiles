@@ -39,7 +39,7 @@ run_command "yay -S --sudoloop --noconfirm bluez bluez-libs bluez-utils blueman 
 
 run_command "yay -S --sudoloop --noconfirm jome" "Install Emoji-Picker" "yes" "no"
 
-run_command "yay -S --sudoloop --noconfirm code godot" "Install Elrys Dev-Tools" "yes" "no"
+run_command "yay -S --sudoloop --noconfirm code godot steam discord spotify" "Install Elrys Tools" "yes" "no"
 
 run_command "yay -S --sudoloop --noconfirm fastfetch" "Installing Fasfetch" "no" "no"
 
