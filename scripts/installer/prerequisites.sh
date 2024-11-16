@@ -17,11 +17,11 @@ run_command "git clone https://aur.archlinux.org/yay.git && cd yay" "Cloning YAY
 
 run_command "makepkg --noconfirm -si && cd .. # builds with makepkg" "Building YAY" "no" "no"
 
-run_command "pacman -S --noconfirm pipewire pipewire-pulse lib32-pipewire pipewire-audio wireplumber pavucontrol" "Configuring audio" "no"
+run_command "pacman -S --noconfirm pipewire pipewire-pulse lib32-pipewire pipewire-audio wireplumber pavucontrol pamixer" "Configuring audio" "no"
 
 run_command "pacman -S --noconfirm gnome-keyring libsecret seahorse" "Installing Keystore" "no"
 
-run_command "pacman -S --noconfirm ttf-cascadia-code-nerd ttf-cascadia-mono-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-iosevka-nerd ttf-iosevkaterm-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono" "Installing Nerd Fonts and Symbols" "no"
+run_command "pacman -S --noconfirm ttf-cascadia-code-nerd ttf-cascadia-mono-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-iosevka-nerd ttf-iosevkaterm-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono noto-fonts noto-fonts-emoji ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono" "Installing Nerd Fonts and Symbols" "no"
 
 run_command "pacman -S --noconfirm sddm && systemctl enable sddm.service" "Installing and enabling SDDM" "no"
 

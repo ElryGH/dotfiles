@@ -9,7 +9,7 @@ source $SCRIPT_DIR/helper.sh
 log_message "Installation started for theming section"
 print_info "\nStarting theming setup..."
 
-run_command "pacman -S --noconfirm nwg-look" "Installing nwg-look for GTK theme management" "no"
+run_command "pacman -S --noconfirm gtk nwg-look xdg-desktop-portal-gtk gnome-themes-extra adwaita-dark" "Installing GTK theme stuff" "no"
 
 run_command "pacman -S --noconfirm qt5 qt6 qt5-quickcontrols qt5ct qt6ct kvantum" "Installing Qt5, Qt6 Settings, and Kvantum theme engines" "no"
 
