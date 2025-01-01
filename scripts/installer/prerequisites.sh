@@ -33,6 +33,6 @@ run_command "pacman -S --noconfirm nano" "Install nano" "no"
 
 run_command "pacman -S --noconfirm tar" "Installing tar for extracting files" "no"
 
-run_command "pacman -S --noconfirm nautilus" "Installing Filemanager" "no"
+run_command "pacman -S --noconfirm nemo nemo-fileroller" "Installing Filemanager" "no"
 
 echo "------------------------------------------------------------------------"
