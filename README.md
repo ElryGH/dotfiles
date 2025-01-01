@@ -1,5 +1,3 @@
-# Development Paused for the time beeing, as Hyprland runs bad on my Laptop.
-
 # Elry's Hyprland Dotfiles 
 
 This repository is designed to copy up my Hyprland environment on Arch. </br>
