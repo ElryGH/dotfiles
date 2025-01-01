@@ -19,7 +19,7 @@ run_command "cp -r /home/$SUDO_USER/dotfiles/configs/tofi /home/$SUDO_USER/.conf
 
 run_command "pacman -S --noconfirm cliphist" "Install Cliphist - Clipboard Manager" "yes"
 
-run_command "yay -S --sudoloop --noconfirm swww" "Installing SWWW for wallpaper management" "no" "no"
+run_command "yay -S --sudoloop --noconfirm hyprpaper" "Installing Hyprpaper for wallpaper management" "no" "no"
 
 run_command "mkdir -p /home/$SUDO_USER/.config/assets/backgrounds && cp -r /home/$SUDO_USER/dotfiles/assets/backgrounds /home/$SUDO_USER/.config/assets/" "Copy sample wallpapers to assets directory (Recommended)" "yes"
 
