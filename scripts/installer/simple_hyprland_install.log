@@ -135,3 +135,140 @@ Thu  2 Jan 00:26:42 CET 2025: Install Scripts (Recommended) completed successful
 Thu  2 Jan 00:26:43 CET 2025: Operation accepted by user.
 Thu  2 Jan 00:26:43 CET 2025: Final setup script started
 Thu  2 Jan 00:26:43 CET 2025: Installation completed successfully
+Thu  2 Jan 18:33:16 CET 2025: Installation started
+Thu  2 Jan 18:33:16 CET 2025: Original user is elry
+Thu  2 Jan 18:33:16 CET 2025: Arch Linux detected. Installation proceeding.
+Thu  2 Jan 18:33:17 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:33:17 CET 2025: Installation started for prerequisites section
+Thu  2 Jan 18:33:17 CET 2025: Attempting to run: Updating package database and upgrading packages
+Thu  2 Jan 18:33:23 CET 2025: Updating package database and upgrading packages completed successfully.
+Thu  2 Jan 18:33:23 CET 2025: Attempting to run: Installing YAY
+Thu  2 Jan 18:33:23 CET 2025: Installing YAY completed successfully.
+Thu  2 Jan 18:33:23 CET 2025: Attempting to run: Cloning YAY
+Thu  2 Jan 18:33:24 CET 2025: Cloning YAY completed successfully.
+Thu  2 Jan 18:33:24 CET 2025: Attempting to run: Building YAY
+Thu  2 Jan 18:33:51 CET 2025: Building YAY completed successfully.
+Thu  2 Jan 18:33:51 CET 2025: Attempting to run: Configuring audio
+Thu  2 Jan 18:33:53 CET 2025: Configuring audio completed successfully.
+Thu  2 Jan 18:33:53 CET 2025: Attempting to run: Installing Keystore
+Thu  2 Jan 18:33:55 CET 2025: Installing Keystore completed successfully.
+Thu  2 Jan 18:33:55 CET 2025: Attempting to run: Installing Nerd Fonts and Symbols
+Thu  2 Jan 18:34:01 CET 2025: Installing Nerd Fonts and Symbols completed successfully.
+Thu  2 Jan 18:34:01 CET 2025: Attempting to run: Installing and enabling SDDM
+Thu  2 Jan 18:34:03 CET 2025: Installing and enabling SDDM completed successfully.
+Thu  2 Jan 18:34:03 CET 2025: Attempting to run: Install Google Chrome
+Thu  2 Jan 18:34:05 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:16 CET 2025: Install Google Chrome completed successfully.
+Thu  2 Jan 18:34:16 CET 2025: Attempting to run: Installing Kitty
+Thu  2 Jan 18:34:17 CET 2025: Installing Kitty completed successfully.
+Thu  2 Jan 18:34:17 CET 2025: Attempting to run: Install nano
+Thu  2 Jan 18:34:17 CET 2025: Install nano completed successfully.
+Thu  2 Jan 18:34:17 CET 2025: Attempting to run: Installing tar for extracting files
+Thu  2 Jan 18:34:18 CET 2025: Installing tar for extracting files completed successfully.
+Thu  2 Jan 18:34:18 CET 2025: Attempting to run: Installing Filemanager
+Thu  2 Jan 18:34:19 CET 2025: Installing Filemanager completed successfully.
+Thu  2 Jan 18:34:21 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:21 CET 2025: Installation started for hypr section
+Thu  2 Jan 18:34:21 CET 2025: Attempting to run: Installing Hyprland (Must)
+Thu  2 Jan 18:34:22 CET 2025: Installing Hyprland (Must) completed successfully.
+Thu  2 Jan 18:34:22 CET 2025: Attempting to run: Copying hyprland config
+Thu  2 Jan 18:34:22 CET 2025: Copying hyprland config completed successfully.
+Thu  2 Jan 18:34:22 CET 2025: Attempting to run: Installing XDG desktop portal for Hyprland
+Thu  2 Jan 18:34:23 CET 2025: Installing XDG desktop portal for Hyprland completed successfully.
+Thu  2 Jan 18:34:23 CET 2025: Attempting to run: Installing KDE Polkit agent for authentication dialogs
+Thu  2 Jan 18:34:24 CET 2025: Installing KDE Polkit agent for authentication dialogs completed successfully.
+Thu  2 Jan 18:34:24 CET 2025: Attempting to run: Install Dunst notification daemon
+Thu  2 Jan 18:34:24 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:25 CET 2025: Install Dunst notification daemon completed successfully.
+Thu  2 Jan 18:34:25 CET 2025: Attempting to run: Copy dunst config
+Thu  2 Jan 18:34:26 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:26 CET 2025: Copy dunst config completed successfully.
+Thu  2 Jan 18:34:26 CET 2025: Attempting to run: Installing QT support on wayland
+Thu  2 Jan 18:34:27 CET 2025: Installing QT support on wayland completed successfully.
+Thu  2 Jan 18:34:27 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:27 CET 2025: Installation started for utilities section
+Thu  2 Jan 18:34:27 CET 2025: Attempting to run: Installing Waybar
+Thu  2 Jan 18:34:29 CET 2025: Installing Waybar completed successfully.
+Thu  2 Jan 18:34:29 CET 2025: Attempting to run: Copy Waybar config
+Thu  2 Jan 18:34:29 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:29 CET 2025: Copy Waybar config completed successfully.
+Thu  2 Jan 18:34:29 CET 2025: Attempting to run: Installing Tofi - Application Launcher
+Thu  2 Jan 18:34:39 CET 2025: Installing Tofi - Application Launcher completed successfully.
+Thu  2 Jan 18:34:39 CET 2025: Attempting to run: Copy Tofi config(s)
+Thu  2 Jan 18:34:40 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:40 CET 2025: Copy Tofi config(s) completed successfully.
+Thu  2 Jan 18:34:40 CET 2025: Attempting to run: Install Cliphist - Clipboard Manager
+Thu  2 Jan 18:34:41 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:41 CET 2025: Install Cliphist - Clipboard Manager completed successfully.
+Thu  2 Jan 18:34:41 CET 2025: Attempting to run: Installing Hyprpaper for wallpaper management
+Thu  2 Jan 18:34:42 CET 2025: Installing Hyprpaper for wallpaper management completed successfully.
+Thu  2 Jan 18:34:42 CET 2025: Attempting to run: Copy sample wallpapers to assets directory (Recommended)
+Thu  2 Jan 18:34:43 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:43 CET 2025: Copy sample wallpapers to assets directory (Recommended) completed successfully.
+Thu  2 Jan 18:34:43 CET 2025: Attempting to run: Install Hyprpicker - Color Picker
+Thu  2 Jan 18:34:44 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:45 CET 2025: Install Hyprpicker - Color Picker completed successfully.
+Thu  2 Jan 18:34:45 CET 2025: Attempting to run: Installing Hyprlock - Screen Locker
+Thu  2 Jan 18:34:46 CET 2025: Installing Hyprlock - Screen Locker completed successfully.
+Thu  2 Jan 18:34:46 CET 2025: Attempting to run: Copy Hyprlock config
+Thu  2 Jan 18:34:46 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:46 CET 2025: Copy Hyprlock config completed successfully.
+Thu  2 Jan 18:34:46 CET 2025: Attempting to run: Installing Wlogout - Session Manager
+Thu  2 Jan 18:34:56 CET 2025: Installing Wlogout - Session Manager completed successfully.
+Thu  2 Jan 18:34:56 CET 2025: Attempting to run: Copy Wlogout config and assets
+Thu  2 Jan 18:34:56 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:34:56 CET 2025: Copy Wlogout config and assets completed successfully.
+Thu  2 Jan 18:34:56 CET 2025: Attempting to run: Install Grimblast - Screenshot tool
+Thu  2 Jan 18:34:57 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:35:11 CET 2025: Install Grimblast - Screenshot tool completed successfully.
+Thu  2 Jan 18:35:11 CET 2025: Attempting to run: Install & Enable Bluetooth
+Thu  2 Jan 18:35:12 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:35:15 CET 2025: Install & Enable Bluetooth completed successfully.
+Thu  2 Jan 18:35:15 CET 2025: Attempting to run: Install Emoji-Picker
+Thu  2 Jan 18:35:15 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:35:16 CET 2025: Install Emoji-Picker completed successfully.
+Thu  2 Jan 18:35:16 CET 2025: Attempting to run: Install Elrys Tools
+Thu  2 Jan 18:35:17 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:35:45 CET 2025: Install Elrys Tools completed successfully.
+Thu  2 Jan 18:35:45 CET 2025: Attempting to run: Installing Fasfetch
+Thu  2 Jan 18:35:46 CET 2025: Installing Fasfetch completed successfully.
+Thu  2 Jan 18:35:46 CET 2025: Attempting to run: Copy Fastfetch Settings
+Thu  2 Jan 18:35:56 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:35:56 CET 2025: Copy Fastfetch Settings completed successfully.
+Thu  2 Jan 18:35:57 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:35:57 CET 2025: Installation started for theming section
+Thu  2 Jan 18:35:57 CET 2025: Attempting to run: Installing GTK theme stuff
+Thu  2 Jan 18:35:57 CET 2025: Command failed: pacman -S --noconfirm gtk nwg-look xdg-desktop-portal-gtk gnome-themes-extra adwaita-dark
+Thu  2 Jan 18:35:57 CET 2025: Installing GTK theme stuff failed and was not retried (auto mode).
+Thu  2 Jan 18:35:57 CET 2025: Attempting to run: Installing Qt5, Qt6 Settings, and Kvantum theme engines
+Thu  2 Jan 18:36:17 CET 2025: Installing Qt5, Qt6 Settings, and Kvantum theme engines completed successfully.
+Thu  2 Jan 18:36:17 CET 2025: Attempting to run: Install Catppuccin Mocha GTK theme
+Thu  2 Jan 18:36:23 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:36:23 CET 2025: Install Catppuccin Mocha GTK theme completed successfully.
+Thu  2 Jan 18:36:23 CET 2025: Attempting to run: Install Tela Circle Dracula icon theme
+Thu  2 Jan 18:36:24 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:36:32 CET 2025: Install Tela Circle Dracula icon theme completed successfully.
+Thu  2 Jan 18:36:32 CET 2025: Attempting to run: Install Catppuccin theme for Kvantum
+Thu  2 Jan 18:36:36 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:36:50 CET 2025: Install Catppuccin theme for Kvantum completed successfully.
+Thu  2 Jan 18:36:50 CET 2025: Attempting to run: Copy Catppuccin theme configuration for Kitty terminal
+Thu  2 Jan 18:36:58 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:36:58 CET 2025: Copy Catppuccin theme configuration for Kitty terminal completed successfully.
+Thu  2 Jan 18:36:58 CET 2025: Attempting to run: Install SDDM Theme
+Thu  2 Jan 18:36:59 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:36:59 CET 2025: Install SDDM Theme completed successfully.
+Thu  2 Jan 18:36:59 CET 2025: Attempting to run: Enable SDDM Theme
+Thu  2 Jan 18:37:00 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:37:00 CET 2025: Enable SDDM Theme completed successfully.
+Thu  2 Jan 18:37:00 CET 2025: Attempting to run: Install Grub Theme
+Thu  2 Jan 18:37:00 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:37:00 CET 2025: Install Grub Theme completed successfully.
+Thu  2 Jan 18:37:00 CET 2025: Attempting to run: Enable Grub Theme
+Thu  2 Jan 18:37:01 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:37:02 CET 2025: Enable Grub Theme completed successfully.
+Thu  2 Jan 18:37:02 CET 2025: Attempting to run: Install Scripts (Recommended)
+Thu  2 Jan 18:37:03 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:37:03 CET 2025: Install Scripts (Recommended) completed successfully.
+Thu  2 Jan 18:37:03 CET 2025: Operation accepted by user.
+Thu  2 Jan 18:37:03 CET 2025: Final setup script started
+Thu  2 Jan 18:37:03 CET 2025: Installation completed successfully

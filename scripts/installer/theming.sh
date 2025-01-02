@@ -23,7 +23,7 @@ run_command "cp -r /home/$SUDO_USER/dotfiles/configs/kitty /home/$SUDO_USER/.con
 
 run_command "cp -r /home/$SUDO_USER/dotfiles/assets/sddm/theme/* /usr/share/sddm/themes/" "Install SDDM Theme" "yes"
 
-run_command "cp /home/$SUDO_USER/dotfiles/assets/sddm/default.conf /usr/lib/sddm/sddm.conf.d/" "Enable SDDM Theme" "yes"
+run_command "cp /home/$SUDO_USER/dotfiles/assets/sddm/default.conf /usr/lib/sddm/sddm.conf.d/default.conf && cp /home/$SUDO_USER/dotfiles/assets/sddm/wayland-session /usr/share/sddm/scripts/wayland-session " "Enable SDDM Theme" "yes"
 
 run_command "cp -r /home/$SUDO_USER/dotfiles/assets/grub/arch-silence /boot/grub/themes/" "Install Grub Theme" "yes"
 
