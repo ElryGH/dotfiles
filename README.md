@@ -1,27 +1,19 @@
 # Elry's Hyprland Dotfiles 
 
-This repository is designed to copy up my Hyprland environment on Arch. </br>
-By the end of this guide, you'll have a clean Hyprland setup like this: </br>
+This repository holds dotfiles for a clean Hyprland setup like this: </br>
 <img width="720" src="screenshot.png" alt="final-setup"> </br>
-And also a nice SDDM & Grub Theme: </br>
-<img width="250" src="https://github.com/MarianArlt/sddm-chili/raw/master/preview.jpg" alt="sddm">
-<img width="275" src="https://github.com/fghibellini/arch-silence/raw/master/preview.png" alt="grub">
 
 ## Installation
 
-1. Clone the repository to your home folder:
-    ```
-    git clone https://github.com/ElryGH/dotfiles.git
-    ```
-2. Navigate to the installer directory:
-    ```
-    cd ~/dotfiles/scripts/installer
-    ```
-3. Run the installation script with sudo:
-    ```
-    sudo sh install.sh
-    ```
-4. Use the Installation Script to set up Hyprland.
+0. Install Hyprland, i recommend using [JaKooLit's Installer](https://github.com/JaKooLit/Arch-Hyprland)
+
+1. Clone the repository to your home folder.
+
+2. Install the following Apps: Chrome, Discord, Kitty, Nemo, Dunst, Cliphist, Polkit KDE,  Gnome Keyring, Libsecret, Fastfetch, Hyprpaper, Hyprlock, Hyprpicker, Waybar, Wlogout
+
+3. Copy config files to .config and the scripts to /.local/share/bin
+
+4. Reboot.
 
 ### Key Bindings
 
