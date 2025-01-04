@@ -11,9 +11,13 @@ This repository holds dotfiles for a clean Hyprland setup like this: </br>
 
 2. Install the following Apps: Chrome, Discord, Kitty, Nemo, Dunst, Cliphist, Polkit KDE,  Gnome Keyring, Libsecret, Fastfetch, Hyprpaper, Hyprlock, Hyprpicker, Waybar, Wlogout
 
-3. Copy config files to .config and the scripts to /.local/share/bin
+3. Copy /assets/config files to .config and the scripts to /.local/share/bin
 
-4. Reboot.
+4. Copy /assets/archchan.jpg to /.config/assets/archchan.jpg
+
+5. Adjust the Hyprland configs to your Monitors and paths.
+
+6. Reboot.
 
 ### Key Bindings
 
@@ -58,7 +62,4 @@ Make sure to have applications installed corresponding to the binds. </br>
 Feel free to customize these keybindings to better suit your needs.
 
 ## Credits
-* [Simple Hyprland](https://github.com/gaurav210233/simple-hyprland)
-* [SDDM Chili](https://github.com/MarianArlt/sddm-chili)
-* [Arch Silence](https://github.com/fghibellini/arch-silence)
 * [Archchan Wallpaper](https://www.pixiv.net/en/artworks/103383813)
